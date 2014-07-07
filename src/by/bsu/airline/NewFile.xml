@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<airline date-of-issue="07/07/2014" title="airline" />
+<planes>
+	<plane view="capasity" aircompany="airline">
+		<name>An Mria</name>
+		<year>1988</year>
+		<country>Ukraine</country>
+		<characteristics>
+			<capacity>250</capacity>
+			<passanger>300</passanger>
+			<fuel_weight>300</fuel_weight>
+			<cruising_speed>850</cruising_speed>
+			<range>15400</range>
+			<practical_ceiling>11000</practical_ceiling>
+		</characteristics>
+		<parameters>
+			<length>84</length>
+			<height>88.4</height>
+			<width>18.2</width>
+		<parameters />
+		<price>240</price>
+	</plane>
+	<plane view="passenger" aircompany="airline">
+		<name>Airbus</name>
+		<year>2005</year>
+		<country>France</country>
+		<characteristics>
+			<capacity>200</capacity>
+			<passanger>620</passanger>
+			<fuel_weight>248</fuel_weight>
+			<cruising_speed>900</cruising_speed>
+			<range>15200</range>
+			<practical_ceiling>13115</practical_ceiling>
+		</characteristics>
+		<parameters>
+			<length>73</length>
+			<height>79.75</height>
+			<width>24</width>
+		<parameters />
+		<price>390</price>
+	</plane>
+	<plane view="passenger" aircompany="airline">
+		<name>Boeing747</name>
+		<year>2010</year>
+		<country>USA</country>
+		<characteristics>
+			<capacity>240</capacity>
+			<passanger>581</passanger>
+			<fuel_weight>230</fuel_weight>
+			<cruising_speed>917</cruising_speed>
+			<range>14100</range>
+			<practical_ceiling>13000</practical_ceiling>
+		</characteristics>
+		<parameters>
+			<length>76.3</length>
+			<height>68.5</height>
+			<width>19.4</width>
+		<parameters />
+		<price>228</price>
+	</plane>
+	<plane view="capasity" aircompany="Airline">
+		<name>Boeing947</name>
+		<year>1993</year>
+		<country>USA</country>
+		<characteristics>
+			<capacity>320</capacity>
+			<passanger>416</passanger>
+			<fuel_weight>217</fuel_weight>
+			<cruising_speed>912</cruising_speed>
+			<range>14200</range>
+			<practical_ceiling>11700</practical_ceiling>
+		</characteristics>
+		<parameters>
+			<length>73.3</length>
+			<height>69.5</height>
+			<width>20.4</width>
+		<parameters />
+		<price>239</price>
+	</plane>
+</planes>

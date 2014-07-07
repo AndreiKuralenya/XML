@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.example.com/airline"
+  xmlns:tns="http://www.example.com/airline"
+  elementFormDefault="qualified">
+  <element name="planes">
+   <complexType>
+    <sequence>
+     <element name="plane" 
+      type="tns:Plane"
+      minOccurs="2" 
+      maxOccurs="unbounded" />
+    </sequence>
+   </complexType>
+  </element>
+  <complexType name="Plane">
+   <sequence>
+      <element name="name" type="string" />
+      <element name="year" type="positiveInteger" />
+      <element name="country" type="string" />
+      <element name="characteristics" type="tns:Characteristics" />
+      <element name="parameters" type="tns:parameters" />
+   </sequence>
+  <attribute name="view" type="tns:View" use="required" />
+  <attribute name="aircompany" use="optional" default="airline">
+   <simpleType>
+    <restriction base="string">
+     <enumeration value="passenger"></enumeration>
+     <enumeration value="capasity"></enumeration>
+    </restriction>
+   </simpleType>
+  </attribute>
+  </complexType>
+  <simpleType name="View">
+   <restriction base="ID">
+       <pattern value="([a-zA-Z])[a-zA-Z0-9]{7,19}"/>
+          </restriction>
+  </simpleType>
+</schema>
